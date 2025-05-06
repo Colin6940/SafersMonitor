@@ -7,6 +7,10 @@ import psycopg2
 from datetime import datetime, timedelta
 import traceback
 import bcrypt
+import qrcode
+import uuid
+import io
+import base64
 
 # ==============================
 # 초기 설정
@@ -232,6 +236,71 @@ class HealthRecordRequest(BaseModel):
 class AlertRequest(BaseModel):
     device_id: str
     detected_abnormal: bool
+
+# 임시 QR 토큰 저장소 (테스트용 메모리 저장 → 배포 시 Redis 추천)
+qr_token_store = {}
+
+
+# ==============================
+# QR코드 생성성 API
+# ==============================
+@app.post("/api/generate_qr")
+def generate_qr():
+    try:
+        # 1️⃣ 랜덤 UUID 토큰 생성
+        token = str(uuid.uuid4())
+
+        # 2️⃣ 유효시간 (예: 5분)
+        expire_at = datetime.utcnow() + timedelta(minutes=5)
+
+        # 3️⃣ 토큰 저장
+        qr_token_store[token] = expire_at
+
+        # 4️⃣ QR 코드 내용 (URL or 토큰만)
+        qr_content = f"https://api.wearsafers.com/login?token={token}"
+
+        # 5️⃣ QR 코드 이미지 생성
+        qr_img = qrcode.make(qr_content)
+        buffered = io.BytesIO()
+        qr_img.save(buffered, format="PNG")
+        img_str = base64.b64encode(buffered.getvalue()).decode()
+
+        print(f"[DEBUG] QR 토큰 생성됨: {token}")
+
+        # 6️⃣ Base64 인코딩된 이미지 반환
+        return {
+            "token": token,
+            "expires_at": expire_at.isoformat(),
+            "qr_image_base64": img_str
+        }
+
+    except Exception as e:
+        print("[ERROR] QR 코드 생성 실패:", e)
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail="QR 코드 생성 실패")
+
+# ==============================
+# QR코드 유효성 검사사 API
+# ==============================
+@app.post("/api/validate_qr")
+def validate_qr(token: str):
+    expire_at = qr_token_store.get(token)
+    
+    if expire_at is None:
+        # 저장된 토큰이 없으면 → 존재 안 함
+        print("[DEBUG] QR token 없음")
+        raise HTTPException(status_code=400, detail="QR token invalid")
+    
+    if datetime.utcnow() > expire_at:
+        # 만료되었으면 → 삭제하고 만료 응답
+        del qr_token_store[token]
+        print("[DEBUG] QR token 만료됨 → 삭제")
+        raise HTTPException(status_code=400, detail="QR token expired")
+    
+    # ✅ 유효하면 → 검증 성공 응답
+    print("[DEBUG] QR token 유효함")
+    return {"valid": True}
+
 
 # ==============================
 # 사용자 등록 API
@@ -588,3 +657,4 @@ if __name__ == "__main__":
     create_tables()
     import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=8000)
+

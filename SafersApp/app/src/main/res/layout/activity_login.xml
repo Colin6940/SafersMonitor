@@ -5,22 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/instructionText"
+        android:text="자동으로 감지된 전화번호입니다"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- 입력 비활성화, 커서 비활성화 -->
     <EditText
         android:id="@+id/usernameInput"
-        android:hint="Username"
+        android:hint="전화번호 불러오는 중..."
+        android:inputType="phone"
+        android:enabled="false"
+        android:focusable="false"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <EditText
-        android:id="@+id/passwordInput"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/loginButton"
-        android:text="Login"
+        android:id="@+id/qrScanButton"
+        android:text="QR 코드 스캔"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
 </LinearLayout>

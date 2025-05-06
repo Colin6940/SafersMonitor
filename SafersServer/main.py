@@ -496,6 +496,20 @@ def receive_location(data: LocationRequest, token: str = Depends(oauth2_scheme))
     validate_device(token, data.device_id)
     insert_realtime_data(data.device_id, latitude=data.latitude, longitude=data.longitude)
     return {"success": True}
+    
+@app.post("/api/request_realtime_gps")
+def request_realtime_gps(device_id: str):
+    print(f"[DEBUG] /api/request_realtime_gps 호출됨: device_id={device_id}")
+    realtime_gps_requests.add(device_id)
+    print(f"[DEBUG] device_id {device_id}에 대해 실시간 GPS 요청됨")
+    return {"success": True}
+
+@app.get("/api/check_realtime_gps")
+def check_realtime_gps(device_id: str):
+    if device_id in realtime_gps_requests:
+        realtime_gps_requests.remove(device_id)  # 요청 확인되면 플래그 제거
+        return {"realtime_gps_needed": True}
+    return {"realtime_gps_needed": False}
 
 @app.post("/api/stepcount")
 def receive_stepcount(data: StepCountRequest, token: str = Depends(oauth2_scheme)):

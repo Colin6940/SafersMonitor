@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "905760488796",
+    "firebase_url": "https://safers-heart-ratio-default-rtdb.firebaseio.com",
+    "project_id": "safers-heart-ratio",
+    "storage_bucket": "safers-heart-ratio.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905760488796:android:8b42a443eb5a733798d599",
+        "android_client_info": {
+          "package_name": "com.samsung.health.hrdatatransfer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBRGltvA9Hf8VB9lDnZbzP7oA7Sb3H7Lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905760488796:android:26a2dbdac1c2449b98d599",
+        "android_client_info": {
+          "package_name": "com.samsung.health.mobile.MobileApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBRGltvA9Hf8VB9lDnZbzP7oA7Sb3H7Lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

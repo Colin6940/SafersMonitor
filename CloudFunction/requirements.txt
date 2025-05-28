@@ -1,0 +1,4 @@
+functions-framework
+google-cloud-firestore
+psycopg2-binary
+pyjwt

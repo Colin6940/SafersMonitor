@@ -1,0 +1,69 @@
+com.samsung.health.hrdatatransfer.wear-lifecycle-livedata-core-ktx-2.7.0-0 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\06969a1fc378d2a3a5c6387b324ce8fe\transformed\lifecycle-livedata-core-ktx-2.7.0\res
+com.samsung.health.hrdatatransfer.wear-runtime-release-1 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\0926a1a01ba485691c995b1bb868c961\transformed\runtime-release\res
+com.samsung.health.hrdatatransfer.wear-foundation-release-2 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\14cf32e12b90ff9bbf1877e308017a06\transformed\foundation-release\res
+com.samsung.health.hrdatatransfer.wear-navigation-common-ktx-2.5.1-3 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\1578ad0270c6c6ef634b6824ebd685e1\transformed\navigation-common-ktx-2.5.1\res
+com.samsung.health.hrdatatransfer.wear-profileinstaller-1.3.1-4 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\1fdb755e18dc54481d626addbaf52f3e\transformed\profileinstaller-1.3.1\res
+com.samsung.health.hrdatatransfer.wear-lifecycle-viewmodel-savedstate-2.7.0-5 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\25464b90df1a328b5172ecbef777a7c0\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
+com.samsung.health.hrdatatransfer.wear-emoji2-views-helper-1.3.0-6 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\27fbfb37bb96e52dcd1fd36ab39936d5\transformed\emoji2-views-helper-1.3.0\res
+com.samsung.health.hrdatatransfer.wear-material-1.11.0-7 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\303123aedc8a951928b1df760d10657a\transformed\material-1.11.0\res
+com.samsung.health.hrdatatransfer.wear-core-1.13.0-8 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\32f370cf15594f4a7c67aefbbd4af796\transformed\core-1.13.0\res
+com.samsung.health.hrdatatransfer.wear-navigation-common-2.5.1-9 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\33bb7813f16c18045975edee432e600b\transformed\navigation-common-2.5.1\res
+com.samsung.health.hrdatatransfer.wear-viewpager2-1.0.0-10 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\34a5244118851f8fe3c62c07769dbd13\transformed\viewpager2-1.0.0\res
+com.samsung.health.hrdatatransfer.wear-play-services-basement-18.0.0-11 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\35924b3478320d3ade306284709b8f07\transformed\play-services-basement-18.0.0\res
+com.samsung.health.hrdatatransfer.wear-appcompat-resources-1.6.1-12 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\36136810fab10209b0887ca89b8363a8\transformed\appcompat-resources-1.6.1\res
+com.samsung.health.hrdatatransfer.wear-core-ktx-1.13.0-13 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\3ba3735343af251e80bf8c8380199ee0\transformed\core-ktx-1.13.0\res
+com.samsung.health.hrdatatransfer.wear-savedstate-ktx-1.2.1-14 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\3ca378acb3f1a4e994e717072ecbab5e\transformed\savedstate-ktx-1.2.1\res
+com.samsung.health.hrdatatransfer.wear-animation-release-15 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\3d4a6704fb0ee8cf588ad495cd6ad581\transformed\animation-release\res
+com.samsung.health.hrdatatransfer.wear-lifecycle-process-2.7.0-16 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\431ad9db31263ee0f2e095fe17efe04e\transformed\lifecycle-process-2.7.0\res
+com.samsung.health.hrdatatransfer.wear-transition-1.2.0-17 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\45ac3ff40c9c4d5ca276093928af8836\transformed\transition-1.2.0\res
+com.samsung.health.hrdatatransfer.wear-animation-core-release-18 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\4ee28dcbe2ee8b76eb05d1c6d3256f2f\transformed\animation-core-release\res
+com.samsung.health.hrdatatransfer.wear-ui-geometry-release-19 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\506ac3428099ff006591e377787e0151\transformed\ui-geometry-release\res
+com.samsung.health.hrdatatransfer.wear-play-services-base-18.0.1-20 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\53f1cc370ec70e8611183265473a59ce\transformed\play-services-base-18.0.1\res
+com.samsung.health.hrdatatransfer.wear-ui-unit-release-21 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\56e6a7cb706e323db8acf2ced3ebc32a\transformed\ui-unit-release\res
+com.samsung.health.hrdatatransfer.wear-cardview-1.0.0-22 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\581b0b0f1f5aa9d4071b4b57b790abeb\transformed\cardview-1.0.0\res
+com.samsung.health.hrdatatransfer.wear-navigation-runtime-2.5.1-23 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\5bf5bd1919bb4c4626e5377aa7d0cf6d\transformed\navigation-runtime-2.5.1\res
+com.samsung.health.hrdatatransfer.wear-fragment-1.5.1-24 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\5c58e61bfc27258a6a4d74dded1e2b74\transformed\fragment-1.5.1\res
+com.samsung.health.hrdatatransfer.wear-startup-runtime-1.1.1-25 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\5d5c879f89f5764ca6521626ca2144e4\transformed\startup-runtime-1.1.1\res
+com.samsung.health.hrdatatransfer.wear-ui-util-release-26 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\5fcb57e37f8c9582574d9b839d6eb2c5\transformed\ui-util-release\res
+com.samsung.health.hrdatatransfer.wear-savedstate-1.2.1-27 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\6922d14f2639008e9ce6a47db5d4501a\transformed\savedstate-1.2.1\res
+com.samsung.health.hrdatatransfer.wear-foundation-layout-release-28 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\717ca05aed386ae97860bd39f949d2de\transformed\foundation-layout-release\res
+com.samsung.health.hrdatatransfer.wear-lifecycle-viewmodel-ktx-2.7.0-29 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\73c7c4e03d5b7cf0c88fca5d2f52d9c4\transformed\lifecycle-viewmodel-ktx-2.7.0\res
+com.samsung.health.hrdatatransfer.wear-lifecycle-runtime-2.7.0-30 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\851706f2ad8c72a0abeae3b7fc044fdf\transformed\lifecycle-runtime-2.7.0\res
+com.samsung.health.hrdatatransfer.wear-appcompat-1.6.1-31 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\8bb35e4c4780f877829ae8a90f5397ab\transformed\appcompat-1.6.1\res
+com.samsung.health.hrdatatransfer.wear-customview-poolingcontainer-1.0.0-32 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\8d5791d6dba77bdc46dc9eb616998c98\transformed\customview-poolingcontainer-1.0.0\res
+com.samsung.health.hrdatatransfer.wear-hilt-navigation-1.2.0-33 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\99f1df4de9546b1fa93a9335f3d0a967\transformed\hilt-navigation-1.2.0\res
+com.samsung.health.hrdatatransfer.wear-activity-ktx-1.9.0-34 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\9ad19312aaf4fda7cfb91532fac16534\transformed\activity-ktx-1.9.0\res
+com.samsung.health.hrdatatransfer.wear-lifecycle-runtime-ktx-2.7.0-35 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\a0e5c6b2e079fe614928c95720058a8f\transformed\lifecycle-runtime-ktx-2.7.0\res
+com.samsung.health.hrdatatransfer.wear-lifecycle-viewmodel-2.7.0-36 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\a33aa826d0f90fd47a8f198e360ef27c\transformed\lifecycle-viewmodel-2.7.0\res
+com.samsung.health.hrdatatransfer.wear-navigation-compose-2.5.1-37 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\a64ea9b8acfa4275a85ba4e2550143aa\transformed\navigation-compose-2.5.1\res
+com.samsung.health.hrdatatransfer.wear-ui-text-release-38 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\a6b8333d1c27d3ae83018d71693e9d06\transformed\ui-text-release\res
+com.samsung.health.hrdatatransfer.wear-core-runtime-2.2.0-39 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\ae88b0467e2d74b63efcb48d31a57696\transformed\core-runtime-2.2.0\res
+com.samsung.health.hrdatatransfer.wear-ui-release-40 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\b82d578dc6c479e255369677ad3a0db7\transformed\ui-release\res
+com.samsung.health.hrdatatransfer.wear-recyclerview-1.1.0-41 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\c1665917bb0f1c82b5f2d31fc686f80f\transformed\recyclerview-1.1.0\res
+com.samsung.health.hrdatatransfer.wear-lifecycle-runtime-compose-2.7.0-42 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\c3aa7c27b475352ce73732069b9beced\transformed\lifecycle-runtime-compose-2.7.0\res
+com.samsung.health.hrdatatransfer.wear-coordinatorlayout-1.1.0-43 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\c6514a7343b9f2e568f20e859230f25d\transformed\coordinatorlayout-1.1.0\res
+com.samsung.health.hrdatatransfer.wear-compose-material-1.3.1-44 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\c6ceb3bad771d0daebfc5baa122c0dd8\transformed\compose-material-1.3.1\res
+com.samsung.health.hrdatatransfer.wear-annotation-experimental-1.4.0-45 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\c8dd691ab6ca2c49f4cb1ea3d1b0ea6a\transformed\annotation-experimental-1.4.0\res
+com.samsung.health.hrdatatransfer.wear-navigation-runtime-ktx-2.5.1-46 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\ca6a1b768a86306bdf28676793813d94\transformed\navigation-runtime-ktx-2.5.1\res
+com.samsung.health.hrdatatransfer.wear-material-ripple-release-47 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\d044e5c9e34b835b83864bd0eabcc3b0\transformed\material-ripple-release\res
+com.samsung.health.hrdatatransfer.wear-lifecycle-viewmodel-compose-2.7.0-48 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\d52b75d600d0e0f7b4639dbd8ba79a8d\transformed\lifecycle-viewmodel-compose-2.7.0\res
+com.samsung.health.hrdatatransfer.wear-emoji2-1.3.0-49 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\d8825e3287ddb7856cf80aa20d32c403\transformed\emoji2-1.3.0\res
+com.samsung.health.hrdatatransfer.wear-lifecycle-livedata-core-2.7.0-50 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\e70986ac059f1e0e4339937ffffad7d1\transformed\lifecycle-livedata-core-2.7.0\res
+com.samsung.health.hrdatatransfer.wear-activity-compose-1.9.0-51 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\e78e91b2bea5f284425e140a432caf79\transformed\activity-compose-1.9.0\res
+com.samsung.health.hrdatatransfer.wear-constraintlayout-2.0.1-52 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\ec047f9a20f6f94fa4be08709d81bb94\transformed\constraintlayout-2.0.1\res
+com.samsung.health.hrdatatransfer.wear-drawerlayout-1.1.1-53 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\eda7650b1c6619d9eb53baacf5ac0df2\transformed\drawerlayout-1.1.1\res
+com.samsung.health.hrdatatransfer.wear-material-icons-core-release-54 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\ee2555b5c892ab56977a9128db15c98a\transformed\material-icons-core-release\res
+com.samsung.health.hrdatatransfer.wear-compose-material-core-1.3.1-55 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\f07f7c666896ac83f61e165dd70bbff4\transformed\compose-material-core-1.3.1\res
+com.samsung.health.hrdatatransfer.wear-runtime-saveable-release-56 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\f170c3a270470e6f4d9c0ce7dd116dab\transformed\runtime-saveable-release\res
+com.samsung.health.hrdatatransfer.wear-hilt-navigation-compose-1.2.0-57 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\f1cccd96b6d15e2204788ec8bbbf44a0\transformed\hilt-navigation-compose-1.2.0\res
+com.samsung.health.hrdatatransfer.wear-lifecycle-livedata-2.7.0-58 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\f9d910fb19c7e17dfb4184b2900715ca\transformed\lifecycle-livedata-2.7.0\res
+com.samsung.health.hrdatatransfer.wear-activity-1.9.0-59 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\f9f7a6c8a0c8b84b246e243c11d30460\transformed\activity-1.9.0\res
+com.samsung.health.hrdatatransfer.wear-ui-graphics-release-60 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\fbf6a245aa93aba3d6085d13bcd95f54\transformed\ui-graphics-release\res
+com.samsung.health.hrdatatransfer.wear-compose-foundation-1.3.1-61 C:\Users\jsh14\.gradle\caches\8.11.1\transforms\fd27c9d82c3a1d14114512c2211f7be1\transformed\compose-foundation-1.3.1\res
+com.samsung.health.hrdatatransfer.wear-res-62 C:\Users\jsh14\Heart Rate Data Transfer (Complete Code)\wear\build\generated\res\processDebugGoogleServices
+com.samsung.health.hrdatatransfer.wear-resValues-63 C:\Users\jsh14\Heart Rate Data Transfer (Complete Code)\wear\build\generated\res\resValues\debug
+com.samsung.health.hrdatatransfer.wear-packageDebugResources-64 C:\Users\jsh14\Heart Rate Data Transfer (Complete Code)\wear\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.samsung.health.hrdatatransfer.wear-packageDebugResources-65 C:\Users\jsh14\Heart Rate Data Transfer (Complete Code)\wear\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.samsung.health.hrdatatransfer.wear-debug-66 C:\Users\jsh14\Heart Rate Data Transfer (Complete Code)\wear\build\intermediates\merged_res\debug\mergeDebugResources
+com.samsung.health.hrdatatransfer.wear-debug-67 C:\Users\jsh14\Heart Rate Data Transfer (Complete Code)\wear\src\debug\res
+com.samsung.health.hrdatatransfer.wear-main-68 C:\Users\jsh14\Heart Rate Data Transfer (Complete Code)\wear\src\main\res

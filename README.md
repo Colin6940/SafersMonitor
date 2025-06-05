@@ -92,48 +92,70 @@ SafersMonitor/
   안드로이드 스튜디오 이용해 빌드
 
 
-**커밋 히스토리 요약**
-4/17
-노인 보호 센서앱 최초 업로드 → 피드백 후 산업현장 안전 프로젝트로 전환
+## 커밋 히스토리 요약
 
-5/4
-산업현장용 프로젝트로 git 재등록 (작성자: Colin6940)
+- **4/17**  
+  - 노인 보호 센서앱 최초 업로드 → 피드백 후 산업현장 안전 프로젝트로 전환
 
-5/5
-main/커밋1 : 관리자웹(로그인, 대시보드), DB(기본기능), 앱 기초 (Colin6940)
-main/커밋2 : 앱 오류 수정(해결 불가, 버전오류 판명) (Colin6940)
+- **5/4**  
+  - [main/커밋1] 산업현장용 프로젝트로 git 재등록 (작성자: Colin6940)
 
-5/6
-unfinished/커밋1 : 스마트폰앱 처음부터 재개발, 관리자웹·DB 변경 없음 (Colin6940)
+- **5/5**  
+  - [main/커밋2] 관리자웹(로그인, 대시보드), DB(기본기능), 앱 기초 (Colin6940)  
+  - [main/커밋3] 앱 오류 수정(해결 불가, 버전오류 판명) (Colin6940)
 
-5/11
-main/커밋3 : unfinished 병합, safersapp 폴더 삭제, 브랜치 삭제 (Colin6940)
+- **5/6**  
+  - [unfinished/커밋1] 스마트폰앱 처음부터 재개발, 관리자웹·DB 변경 없음 (Colin6940)
 
-5/18
-main/커밋4 : 잘못된 내용 롤백 (Colin6940)
+- **5/11**  
+  - [main/커밋4] unfinished 병합, safersapp 폴더 삭제, 브랜치 삭제 (Colin6940)
 
-5/28
-main/커밋5 : firebase functions, QR 로그인 리팩토링 (Colin6940)
+- **5/18**  
+  - [main/커밋5] 잘못된 내용 롤백 (Colin6940)
 
-5/29
-app/커밋1 : 워치앱·스마트폰앱 연동 완성 (whiteblack1858)
+- **5/28**  
+  - [main/커밋6] firebase functions, QR 로그인 리팩토링 (Colin6940)
 
-6/5
-ai/커밋1 : AI 모듈 및 로직 추가, Gemini API를 통한 실시간 이상상황 분석 기능 구현 (Sol1470)
+- **5/29**  
+  - [app/커밋1] 워치앱·스마트폰앱 연동 완성 (whiteblack1858)
 
-6/6
-main/커밋6 : 편집/삭제 API 추가 (Colin6940)
-main/커밋7 : app/ai 브랜치 메인 병합 (Colin6940)
+- **6/5**  
+  - [ai/커밋1] AI 모듈 및 로직 추가, Gemini API 실시간 이상상황 분석 기능 구현 (Sol1470)
 
-
-
-**기술 스택**
-프론트엔드: React, Material-UI
-백엔드: FastAPI, Python, PostgreSQL, Firebase Functions
-모바일: Android(Kotlin), Wear OS, Google Health Services
-AI 분석: Google Gemini API
-기타: JWT 인증, QR 로그인, RESTful API
+- **6/6**  
+  - [main/커밋7] 편집/삭제 API 추가 (Colin6940)  
+  - [main/커밋8] app/ai 브랜치 메인 병합 (Colin6940)
 
 
-**라이선스**
+
+
+## 기술 스택
+
+- **프론트엔드**  
+  - React  
+  - Material-UI  
+
+- **백엔드**  
+  - FastAPI  
+  - Python  
+  - PostgreSQL  
+  - Firebase Functions  
+
+- **모바일**  
+  - Android (Kotlin)  
+  - Wear OS  
+  - Google Health Services  
+
+- **AI 분석**  
+  - Google Gemini API  
+
+- **기타**  
+  - JWT 인증  
+  - QR 코드 로그인  
+  - RESTful API  
+
+---
+
+## 라이선스
+
 MIT License

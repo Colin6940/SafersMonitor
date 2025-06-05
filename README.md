@@ -117,7 +117,7 @@ SafersMonitor/
   - [main/커밋6] firebase functions, QR 로그인 리팩토링 (Colin6940)
 
 - **5/29**  
-  - [app/커밋1] 워치앱·스마트폰앱 연동 완성 (whiteblack1858)
+  - [app/커밋1] 워치앱·스마트폰앱 새로 빌드, 두 앱 간의 연동 완성 (whiteblack1858)
 
 - **6/5**  
   - [ai/커밋1] AI 모듈 및 로직 추가, Gemini API 실시간 이상상황 분석 기능 구현 (Sol1470)

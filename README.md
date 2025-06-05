@@ -78,12 +78,14 @@ SafersMonitor/
    cd backend
    pip install -r requirements.txt
    uvicorn main:app --reload
+   ```
    
 2. **웹 프론트엔드 실행**
   ```bash
   cd web
   npm install
   npm start
+  ```
 
 4. **앱 실행**
   안드로이드 스튜디오 이용해 빌드

@@ -1,4 +1,4 @@
-# SAFERS Monitor
+![image](https://github.com/user-attachments/assets/63b6ce66-3847-4fa6-9f51-292ec2f81c6d)# SAFERS Monitor
 
 **산업현장 및 취약현장 근로자 안전 관리 통합 시스템**
 
@@ -61,6 +61,7 @@
 
 
 ## 프로젝트 구조
+   ```
 SafersMonitor/
 ├── app/ # Android/Watch 앱 소스
 ├── web/ # React 웹 관리자 페이지
@@ -68,7 +69,7 @@ SafersMonitor/
 ├── db/ # PostgreSQL 스키마 및 데이터
 ├── functions/ # Firebase functions
 └── README.md
-
+   ```
 
 
 ## 설치 및 실행 방법

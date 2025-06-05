@@ -80,6 +80,7 @@ SafersMonitor/
    uvicorn main:app --reload
    
 2. **웹 프론트엔드 실행**
+  ```bash
   cd web
   npm install
   npm start

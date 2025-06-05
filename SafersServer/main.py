@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Depends, HTTPException
+from fastapi import FastAPI, Depends, HTTPException, Query
 from fastapi.security import OAuth2PasswordBearer
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -332,6 +332,64 @@ def register_user(data: RegisterUserRequest):
     finally:
         cur.close()
         conn.close()
+
+
+# ==============================
+# 사용자 수정 API
+# ==============================
+
+@app.put("/api/update_user")
+def update_user(data: RegisterUserRequest):
+    print("[DEBUG] /api/update_user 호출됨")
+    try:
+        conn = get_db()
+        cur = conn.cursor()
+        cur.execute("""
+            UPDATE users
+            SET name=%s, id_number=%s, address=%s, gender=%s, emergency_contact=%s, blood_type=%s,
+                known_diseases=%s, medications=%s, allergies=%s, height=%s, weight=%s, 
+                safety_training_completed=%s, license_info=%s, profile_image_url=%s,
+                device_id=%s, affiliation=%s
+            WHERE phone_number=%s
+        """, (
+            data.name, data.id_number, data.address, data.gender, data.emergency_contact, data.blood_type,
+            data.known_diseases, data.medications, data.allergies, data.height, data.weight, 
+            data.safety_training_completed, data.license_info, data.profile_image_url,
+            data.device_id, data.affiliation, data.phone_number
+        ))
+        conn.commit()
+        print("[DEBUG] 사용자 수정 성공")
+        return {"success": True}
+    except Exception as e:
+        print("[ERROR] 사용자 수정 실패:", e)
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail="수정 실패")
+    finally:
+        cur.close()
+        conn.close()
+
+# ==============================
+# 사용자 삭제 API
+# ==============================
+
+@app.delete("/api/delete_user")
+def delete_user(phone_number: str = Query(..., description="삭제할 사용자의 전화번호")):
+    print("[DEBUG] /api/delete_user 호출됨")
+    try:
+        conn = get_db()
+        cur = conn.cursor()
+        cur.execute("DELETE FROM users WHERE phone_number = %s", (phone_number,))
+        conn.commit()
+        print("[DEBUG] 사용자 삭제 성공")
+        return {"success": True}
+    except Exception as e:
+        print("[ERROR] 사용자 삭제 실패:", e)
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail="삭제 실패")
+    finally:
+        cur.close()
+        conn.close()
+
 
 # ==============================
 # 관리자 등록 API

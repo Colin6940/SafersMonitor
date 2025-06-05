@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/63b6ce66-3847-4fa6-9f51-292ec2f81c6d)# SAFERS Monitor
+# SAFERS Monitor
 
 **산업현장 및 취약현장 근로자 안전 관리 통합 시스템**
 

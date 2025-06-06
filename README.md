@@ -63,11 +63,11 @@
 ## 프로젝트 구조
    ```
 SafersMonitor/
-├── app/ # Android/Watch 앱 소스
-├── web/ # React 웹 관리자 페이지
-├── backend/ # FastAPI 서버 (Gemini API 연동 포함)
-├── db/ # PostgreSQL 스키마 및 데이터
-├── functions/ # Firebase functions
+├── SafersMonitor-app/ # Android/Watch 앱 소스
+├── admin-frontend/ # React 웹 관리자 페이지
+├── Gemini-AI/ # Gemini API 데이터 분석 인공지능 로직
+├── SafersServer/ # PostgreSQL & FastAPI 서버 & 스키마 및 데이터
+├── CloudFunction/ # Firebase functions
 └── README.md
    ```
 
